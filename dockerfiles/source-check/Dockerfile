@@ -1,4 +1,4 @@
-FROM ubuntu:disco
+FROM ubuntu:bionic
 
 RUN useradd -m boomerang
 WORKDIR /home/boomerang/
